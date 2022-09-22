@@ -43,6 +43,7 @@ locale: pt_BR #en_US
 # Build settings
 theme: minima
 plugins: 
+  - jekyll-feed
   - jekyll-seo-tag
 
 # Exclude from processing.
