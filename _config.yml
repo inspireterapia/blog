@@ -29,7 +29,7 @@ url: "http://terapiainspire.com.br" # the base hostname & protocol for your site
 show_excerpts: true # set to true to show excerpts on the homepage
 
 minima:
-  date_format: "%b %-d, %Y"
+  date_format: "%-d de %b de %Y"
  
   # generate social links in footer
 social_links:

@@ -10,3 +10,4 @@ gem 'github-pages'
 
 gem "webrick", "~> 1.7"
 gem 'jekyll-seo-tag'
+gem "kramdown-parser-gfm", "~> 3.9"
