@@ -29,7 +29,7 @@ url: "http://terapiainspire.com.br" # the base hostname & protocol for your site
 show_excerpts: true # set to true to show excerpts on the homepage
 
 minima:
-  date_format: "%-d de %b de %Y"
+  date_format: "%-d/%m/%Y %H:%M"
  
   # generate social links in footer
 social_links:
@@ -38,12 +38,11 @@ social_links:
 instagram_username: terapia_inspite
 #github_username:  terapia_inspite
 
-
+locale: pt_BR #en_US
 
 # Build settings
 theme: minima
-plugins:
-  - jekyll-feed
+plugins: 
   - jekyll-seo-tag
 
 # Exclude from processing.
