@@ -1,20 +1,27 @@
-<!DOCTYPE html>
-{%- include head.html -%}
+<!DOCTYPE HTML>
+<!--
+	Feito com <3 pelo FabioHCNobre
+-->
+<html lang="pt-br">
+{% include head.html %}
 
 <body class="is-preload">
 
-    {%- include header.html -%}
-
 	<div id="wrapper">
 
-		{{ content }}
- 
+		{% include header.html %}
+		
+		<div id="main">
+			
+			{{ content }}
+			
+		</div>	
+
+		{% include footer.html %}
+
 	</div>
 
-    {%- include footer.html -%}
+	{% include scripts.html %}
 
 </body>
 </html>
-
-
- 
