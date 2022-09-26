@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: post
 title:  "Bem vindo ao Blog"
 date:   2022-09-21 22:24:18 -0300
 categories: inspire
